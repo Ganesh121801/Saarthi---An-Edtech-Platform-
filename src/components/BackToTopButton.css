@@ -1,0 +1,16 @@
+
+.Apps{
+    display: flex;
+    justify-content: right;
+}
+.buttonss {
+   margin-right: 15px;
+    position: fixed;
+    border-radius: 10px;
+    bottom: 6px;
+    width: 60px;
+    height: 50px;
+    font-size: 50px;
+    
+  }
+  

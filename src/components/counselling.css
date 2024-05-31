@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+.counseling-section {
+    background-color: #f4eded;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .counseling-section h2 {
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+  
+  .counseling-section .video-lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start; 
+  }
+  
+  .counseling-section .video-items {
+    flex-basis: calc(50% - 20px);
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .counseling-section .video-items a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  

@@ -1,0 +1,38 @@
+/* profile.css */
+
+.profile-container {
+    
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .profile-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .profile-container p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .profile-container a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+  }
+  
+  .profile-container a:hover {
+    color: #0056b3;
+  }
+  
+  /* You can add more styles as needed for your component */
+  

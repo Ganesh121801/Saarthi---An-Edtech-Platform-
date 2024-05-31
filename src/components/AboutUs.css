@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+.about-us {
+    background-color: #f9f9f9;
+    padding: 35px 0;
+    text-align: center;
+  }
+  
+  .about-us-content {
+    height: 750px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 45px;
+    color: black;
+    background-color: #ebe9e9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .about-us-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    font-size: 5.5rem;
+    color: #000000;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #000000;
+    
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  ul.team-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  ul.team-list li {
+    margin: 50px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  ul.team-list li:hover {
+    transform: translateY(-5px);
+  }
+  
+  ul.team-list img {
+    max-width: 150px;
+    border-radius: 75%;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  ul.team-list img:hover {
+    transform: scale(1.1);
+  }
+  
+  p {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    color: #000000;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  
